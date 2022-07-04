@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use(rawBodyParser());
 
 app.use(function(req, res) {
-      //console.log(req.headers);
+      console.log(req.headers);
       //console.log(req.cookies);
       console.log('\n');
       //log.debug(req.rawBody.toString('utf8'));
